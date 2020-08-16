@@ -2,6 +2,7 @@
 int main()
 {
     long double x,y;
+    printf("In put weight :");
     scanf("%Lf",&x);
     if(x>0)
     {
