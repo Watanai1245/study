@@ -1,6 +1,6 @@
 #include <stdio.h>
 struct number {
-    int x;
+    int x[10];
     int i;
     int j;
 }num, row, star, space;
@@ -62,9 +62,9 @@ void lasstriangle (int n)
 
 int main()
 {
-    scanf("%d",&num.x);
-    moretriangle(num.x);
-    triangle (num.x);
-    lasstriangle (num.x);
+    scanf("%d",&num.x[1]);
+    moretriangle(num.x[1]);
+    triangle (num.x[1]);
+    lasstriangle (num.x[1]);
     return 0;
 }
