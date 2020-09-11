@@ -25,6 +25,7 @@ void number(int num[100])
 }
 int main()
 {
+	printf("Enter number size : ");
 	scanf_s("%d",&n1.n);
 	for (n1.i = 0; n1.i < n1.n; ++n1.i)
 	{
