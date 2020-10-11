@@ -33,4 +33,5 @@ int main()
 		printf("%c", T->x[T->i]);
 	}
 	printf("\n");
+	return 0;
 }
