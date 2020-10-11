@@ -27,7 +27,7 @@ int main()
 	struct Text* T = &text;
 	scanf_s("%s", T->x, 99);
 	T->n = strlen(T->x);
-	check(T->x, T->n, 'T->y');
+	check(T->x, T->n, T->y);
 	for (T->i = 0; T->i <= T->n; T->i++)
 	{
 		printf("%c", T->x[T->i]);
