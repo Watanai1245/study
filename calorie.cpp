@@ -74,7 +74,7 @@ int main()
 		check(bmr->sex, bmr->weight, bmr->height, bmr->exercise, bmr->age);
 	}
 	else 
-    {
+    	{
 		printf("\\\\\\\\\\ Please enter \"M\" or \"F\" Ouppercase characters /////.\n\n");
 	}
 	return 0;
